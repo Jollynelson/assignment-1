@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+#class{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion {
+    margin-bottom: 20px;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.progress-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.progress-list li {
+    margin-bottom: 10px;
+}
+
+.progressbar {
+    height: 20px;
+    background-color: #eee;
+    position: relative;
+}
+
+.progressbar div {
+    height: 100%;
+    width: 0;
+    background-color: #3498db;
+    position: absolute;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+button{
+    padding: 10px;
+    color: #3498db;
+    background-color: #FFF6EE;
+}
+
+.social{
+    padding-top: 5px;
+}
+
+svg{
+    margin-left: 5px;
+}
